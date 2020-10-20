@@ -3,9 +3,15 @@ html{margin-right:0!important}body{margin:0;padding:0;border:none;font-family:Ro
 ::-webkit-scrollbar {
 	display: none;
 }
+
+body, .h1, .p{
+  user-select: none;
+  cursor: default;
+}
+
 html{
-    -ms-overflow-style: none;  /* Internet Explorer 10+ */
-    scrollbar-width: none;  /* Firefox */
+  -ms-overflow-style: none;  /* Internet Explorer 10+ */
+  scrollbar-width: none;  /* Firefox */
 }
 	
 /* section started desktop */
@@ -24,6 +30,8 @@ html{
 		bottom: auto;
 	}
 }
+
+
 
 /*!
  * Font Awesome Free 5.10.2 by @fontawesome - https://fontawesome.com
