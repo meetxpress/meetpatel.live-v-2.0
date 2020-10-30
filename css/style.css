@@ -6,7 +6,7 @@ html{margin-right:0!important}body{margin:0;padding:0;border:none;font-family:Ro
 
 body, .h1, .p{
   user-select: none;
-  cursor: default;
+  cursor: default;  
 }
 
 html{
