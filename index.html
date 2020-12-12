@@ -28,9 +28,17 @@
           'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
     })(window, document, 'script', 'dataLayer', 'GTM-M337FMP');</script>
   <!-- End Google Tag Manager -->
+
+  <script>
+		window.onload = () => {
+			let bannerNode = document.querySelector('[alt="www.000webhost.com"]').parentNode.parentNode;
+      bannerNode.parentNode.removeChild(bannerNode);
+      myFunction();
+		}
+	</script>
 </head>
 
-<body id="home" onload="myFunction()">
+<body id="home">
   <!-- Google Tag Manager (noscript) -->
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M337FMP" height="0" width="0"
       style="display:none;visibility:hidden"></iframe></noscript>
