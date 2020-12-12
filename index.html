@@ -13,7 +13,10 @@
   <!-- Title -->
   <link rel="icon" href="img/main_logo.png" type="image/icon type">
   <title>Meet V Patel | Fullstack Developer | Android Developer</title>
-  <link rel="stylesheet" href="css/splash_style.css">
+
+  <link rel="stylesheet" href="css/brands.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/splash_style.css" />
 
   <!-- Google Tag Manager -->
   <script>(function (w, d, s, l, i) {
@@ -27,18 +30,33 @@
   <!-- End Google Tag Manager -->
 </head>
 
-<body id="home">
+<body id="home" onload="myFunction()">
   <!-- Google Tag Manager (noscript) -->
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M337FMP" height="0" width="0"
       style="display:none;visibility:hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
 
-  <div class="load">
-    <pre class="term">Meet Patel@server4/src:~$ cd </pre>
+  <div class="centrize full-width">
+    <div class="vertical-center">
+      <div class="started-content">
+        <h1 class="h-title">
+          <a class="a">
+            <center>
+              <img class="im" src="img/clear-mini-main.gif" style="max-width:100%;" />
+            </center>
+          </a>
+        </h1>
+      </div>
+    </div>
   </div>
-  
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-  <script src="js/splash_script.js"></script>
-</body>
 
+  <script>
+    function myFunction() {
+      setTimeout(function () {
+        window.location.replace("home.html");
+      }, 3000);
+    }	
+  </script>
+
+</body>
 </html>
