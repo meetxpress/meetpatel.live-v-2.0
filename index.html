@@ -18,6 +18,16 @@
   <link rel="stylesheet" href="css/style.css" />
   <link rel="stylesheet" href="css/splash_style.css" />
 
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-10R3T7Q197"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-10R3T7Q197');
+  </script>
+
   <!-- Google Tag Manager -->
   <script>(function (w, d, s, l, i) {
       w[l] = w[l] || []; w[l].push({
@@ -29,13 +39,14 @@
     })(window, document, 'script', 'dataLayer', 'GTM-M337FMP');</script>
   <!-- End Google Tag Manager -->
 
+
   <script>
-		window.onload = () => {
-			let bannerNode = document.querySelector('[alt="www.000webhost.com"]').parentNode.parentNode;
+    window.onload = () => {
+      let bannerNode = document.querySelector('[alt="www.000webhost.com"]').parentNode.parentNode;
       bannerNode.parentNode.removeChild(bannerNode);
       myFunction();
-		}
-	</script>
+    }
+  </script>
 </head>
 
 <body id="home">
@@ -67,4 +78,5 @@
   </script>
 
 </body>
+
 </html>
